@@ -20,11 +20,15 @@ These surveys were designed to:
 - Supported planning for survey deployment, data analysis, and reporting
 
 ## Tools used
-- **SurveyMonkey** (survey design, logic, distribution, data collection)
+- **SurveyMonkey** – Survey design, logic, distribution, and raw data collection
+- **Python** – Automation for data cleaning and header formatting to prepare raw SurveyMonkey exports for analysis
 
-## Notes
+## Repo contents
+- `Survey_Design_Overview.md` – Summary of survey purpose, target groups, structure, and collection methods
+- `cte_survey_cleaning_demo.py` – Python script to automate cleaning and formatting of raw survey export files  
+  📎 [View script → `cte_survey_cleaning_demo.py`](./cte_survey_cleaning_demo.py)
+
+##  Notes
 - Due to confidentiality, the actual survey instrument and student responses are not shared here.
-- This repository contains a **mock survey template** and **survey design overview** as examples of the approach used.
+- A mock survey overview and sample automation code are provided to demonstrate approach and technical workflow.
 
-## 📂 Repo contents
-- `Survey_Design_Overview.md` — Summary of the survey purpose, target groups, structure, and data collection methods
